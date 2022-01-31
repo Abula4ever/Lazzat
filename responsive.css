@@ -1,0 +1,88 @@
+
+/* Responsive */
+/* telefon variant */
+@media screen and (max-width: 576px){
+ 
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; 
+    }
+    .menu li{
+        display: block;
+    }
+    .box{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .box button{
+        margin: 10px 0;
+    }
+
+    .box img{
+        width: 80%;
+    }
+    
+    .box .button{
+        margin-top: 10px;
+    }
+
+    .button{
+        margin: 10px;
+    }
+
+    .footer input{
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer h3{
+        margin-top: 50px;
+    }
+
+.footer button{
+    margin-top: 10px;
+}
+
+    .footer{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 20px;
+    }
+}
+/* planshet variant */
+@media (min-width: 577px) and (max-width: 992px) {
+   
+    .nav{
+        text-align: center;
+    }
+
+    .box{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .button{
+        margin-left: 300px;
+    }
+
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer input{
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+/* notebook variant */
+@media (min-width: 993px) and (max-width:1440px) {
+
+}
